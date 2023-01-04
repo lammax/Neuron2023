@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECFA1D12965E4CA0065B501 /* Neuron2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */; };
+		AECFA1D32965E4CA0065B501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1D22965E4CA0065B501 /* ContentView.swift */; };
+		AECFA1D52965E4CA0065B501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECFA1D42965E4CA0065B501 /* Assets.xcassets */; };
+		AECFA1D82965E4CA0065B501 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECFA1D72965E4CA0065B501 /* Preview Assets.xcassets */; };
+		AECFA1E22965E4CA0065B501 /* Neuron2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1E12965E4CA0065B501 /* Neuron2023Tests.swift */; };
+		AECFA1EC2965E4CA0065B501 /* Neuron2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1EB2965E4CA0065B501 /* Neuron2023UITests.swift */; };
+		AECFA1EE2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AECFA1DE2965E4CA0065B501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECFA1C52965E4C90065B501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECFA1CC2965E4C90065B501;
+			remoteInfo = Neuron2023;
+		};
+		AECFA1E82965E4CA0065B501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECFA1C52965E4C90065B501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECFA1CC2965E4C90065B501;
+			remoteInfo = Neuron2023;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AECFA1CD2965E4C90065B501 /* Neuron2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023App.swift; sourceTree = "<group>"; };
+		AECFA1D22965E4CA0065B501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AECFA1D42965E4CA0065B501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECFA1D72965E4CA0065B501 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AECFA1DD2965E4CA0065B501 /* Neuron2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECFA1E12965E4CA0065B501 /* Neuron2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023Tests.swift; sourceTree = "<group>"; };
+		AECFA1E72965E4CA0065B501 /* Neuron2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECFA1EB2965E4CA0065B501 /* Neuron2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023UITests.swift; sourceTree = "<group>"; };
+		AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECFA1CA2965E4C90065B501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1DA2965E4CA0065B501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1E42965E4CA0065B501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AECFA1C42965E4C90065B501 = {
+			isa = PBXGroup;
+			children = (
+				AECFA1CF2965E4C90065B501 /* Neuron2023 */,
+				AECFA1E02965E4CA0065B501 /* Neuron2023Tests */,
+				AECFA1EA2965E4CA0065B501 /* Neuron2023UITests */,
+				AECFA1CE2965E4C90065B501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECFA1CE2965E4C90065B501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1CD2965E4C90065B501 /* Neuron2023.app */,
+				AECFA1DD2965E4CA0065B501 /* Neuron2023Tests.xctest */,
+				AECFA1E72965E4CA0065B501 /* Neuron2023UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECFA1CF2965E4C90065B501 /* Neuron2023 */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */,
+				AECFA1D22965E4CA0065B501 /* ContentView.swift */,
+				AECFA1D42965E4CA0065B501 /* Assets.xcassets */,
+				AECFA1D62965E4CA0065B501 /* Preview Content */,
+			);
+			path = Neuron2023;
+			sourceTree = "<group>";
+		};
+		AECFA1D62965E4CA0065B501 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1D72965E4CA0065B501 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AECFA1E02965E4CA0065B501 /* Neuron2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1E12965E4CA0065B501 /* Neuron2023Tests.swift */,
+			);
+			path = Neuron2023Tests;
+			sourceTree = "<group>";
+		};
+		AECFA1EA2965E4CA0065B501 /* Neuron2023UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1EB2965E4CA0065B501 /* Neuron2023UITests.swift */,
+				AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */,
+			);
+			path = Neuron2023UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECFA1CC2965E4C90065B501 /* Neuron2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECFA1F12965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023" */;
+			buildPhases = (
+				AECFA1C92965E4C90065B501 /* Sources */,
+				AECFA1CA2965E4C90065B501 /* Frameworks */,
+				AECFA1CB2965E4C90065B501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neuron2023;
+			productName = Neuron2023;
+			productReference = AECFA1CD2965E4C90065B501 /* Neuron2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AECFA1DC2965E4CA0065B501 /* Neuron2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECFA1F42965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023Tests" */;
+			buildPhases = (
+				AECFA1D92965E4CA0065B501 /* Sources */,
+				AECFA1DA2965E4CA0065B501 /* Frameworks */,
+				AECFA1DB2965E4CA0065B501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECFA1DF2965E4CA0065B501 /* PBXTargetDependency */,
+			);
+			name = Neuron2023Tests;
+			productName = Neuron2023Tests;
+			productReference = AECFA1DD2965E4CA0065B501 /* Neuron2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AECFA1E62965E4CA0065B501 /* Neuron2023UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECFA1F72965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023UITests" */;
+			buildPhases = (
+				AECFA1E32965E4CA0065B501 /* Sources */,
+				AECFA1E42965E4CA0065B501 /* Frameworks */,
+				AECFA1E52965E4CA0065B501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECFA1E92965E4CA0065B501 /* PBXTargetDependency */,
+			);
+			name = Neuron2023UITests;
+			productName = Neuron2023UITests;
+			productReference = AECFA1E72965E4CA0065B501 /* Neuron2023UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECFA1C52965E4C90065B501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AECFA1CC2965E4C90065B501 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AECFA1DC2965E4CA0065B501 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AECFA1CC2965E4C90065B501;
+					};
+					AECFA1E62965E4CA0065B501 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AECFA1CC2965E4C90065B501;
+					};
+				};
+			};
+			buildConfigurationList = AECFA1C82965E4C90065B501 /* Build configuration list for PBXProject "Neuron2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECFA1C42965E4C90065B501;
+			productRefGroup = AECFA1CE2965E4C90065B501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECFA1CC2965E4C90065B501 /* Neuron2023 */,
+				AECFA1DC2965E4CA0065B501 /* Neuron2023Tests */,
+				AECFA1E62965E4CA0065B501 /* Neuron2023UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECFA1CB2965E4C90065B501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECFA1D82965E4CA0065B501 /* Preview Assets.xcassets in Resources */,
+				AECFA1D52965E4CA0065B501 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1DB2965E4CA0065B501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1E52965E4CA0065B501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECFA1C92965E4C90065B501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECFA1D32965E4CA0065B501 /* ContentView.swift in Sources */,
+				AECFA1D12965E4CA0065B501 /* Neuron2023App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1D92965E4CA0065B501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECFA1E22965E4CA0065B501 /* Neuron2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECFA1E32965E4CA0065B501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECFA1EE2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift in Sources */,
+				AECFA1EC2965E4CA0065B501 /* Neuron2023UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AECFA1DF2965E4CA0065B501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECFA1CC2965E4C90065B501 /* Neuron2023 */;
+			targetProxy = AECFA1DE2965E4CA0065B501 /* PBXContainerItemProxy */;
+		};
+		AECFA1E92965E4CA0065B501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECFA1CC2965E4C90065B501 /* Neuron2023 */;
+			targetProxy = AECFA1E82965E4CA0065B501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AECFA1EF2965E4CA0065B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AECFA1F02965E4CA0065B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECFA1F22965E4CA0065B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neuron2023/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECFA1F32965E4CA0065B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neuron2023/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AECFA1F52965E4CA0065B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuron2023";
+			};
+			name = Debug;
+		};
+		AECFA1F62965E4CA0065B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuron2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuron2023";
+			};
+			name = Release;
+		};
+		AECFA1F82965E4CA0065B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuron2023;
+			};
+			name = Debug;
+		};
+		AECFA1F92965E4CA0065B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8JVJD6M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lammax.ios.study.Neuron2023UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuron2023;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECFA1C82965E4C90065B501 /* Build configuration list for PBXProject "Neuron2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECFA1EF2965E4CA0065B501 /* Debug */,
+				AECFA1F02965E4CA0065B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECFA1F12965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECFA1F22965E4CA0065B501 /* Debug */,
+				AECFA1F32965E4CA0065B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECFA1F42965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECFA1F52965E4CA0065B501 /* Debug */,
+				AECFA1F62965E4CA0065B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECFA1F72965E4CA0065B501 /* Build configuration list for PBXNativeTarget "Neuron2023UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECFA1F82965E4CA0065B501 /* Debug */,
+				AECFA1F92965E4CA0065B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECFA1C52965E4C90065B501 /* Project object */;
+}
