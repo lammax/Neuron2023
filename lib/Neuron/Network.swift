@@ -23,7 +23,7 @@ class Network {
         return current
     }
     
-    func backProp(correct: [Double], a: Double = 0.01) { //a = 0.1, 0.01, ....0.003, ....
+    func backProp(correct: [Double], a: Double = 0.001) { //a = 0.1, 0.01, ....0.003, ....
         guard let firstBackLayer: Layer = layers.last else {
             assertionFailure("No last layer!")
             return

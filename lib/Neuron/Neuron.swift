@@ -10,6 +10,7 @@ import Foundation
 class Neuron {
     
     var weights: [Double]
+    var b: Double
     var oldWeights: [Double] = []
     
     var y: Double = .zero
@@ -17,8 +18,9 @@ class Neuron {
     var inputs: [Double] = []
     var gradient: Double = .zero
     
-    init(weights: [Double]) {
+    init(weights: [Double], b: Double) {
         self.weights = weights
+        self.b = b
     }
     
     func forward(inputs: [Double]) -> Double {
@@ -38,7 +40,7 @@ class Neuron {
 
         // MARK: tan
         // M_E - exp const
-        result = 2 / (1 + pow(M_E, -result)) - 1
+        result = 2 / (1 + pow(M_E, -result)) - 1 + b
         y = result
         dy = 0.5 * (1 + y) * (1 - y)
 
@@ -50,6 +52,7 @@ class Neuron {
         self.gradient = gradient
         
         oldWeights = weights
+        b = b * gradient
         weights = zip(weights, inputs).map({ $0.0 - gradient * $0.1 * a })
     }
     
@@ -64,6 +67,7 @@ class Neuron {
         for _ in 0...weightsNum-1 {
             randowWeights.append(Double.random(in: 0.0 ..< 1.0) - 0.5)
         }
-        return Neuron(weights: randowWeights)
+        let b = Double.random(in: 0.0 ..< 1.0) - 0.5
+        return Neuron(weights: randowWeights, b: b)
     }
 }

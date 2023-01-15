@@ -50,7 +50,7 @@ class NeuronViewModel: ObservableObject {
     
     func start() {
         DispatchQueue.global().async {
-            self.train(1000, 1000)
+            self.train(10000, 1000)
         }
     }
     
