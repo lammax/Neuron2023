@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Neuron2023App: App {
+    private var mainViewModel = MainViewModel(
+        coordinator: MainCoordinator(
+            coordinatorNavigation: CoordinatorNavigationController())
+    )
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        return WindowGroup {
+            AnyView(mainViewModel.getView())
         }
     }
 }

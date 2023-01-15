@@ -8,12 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		AECFA1D12965E4CA0065B501 /* Neuron2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */; };
-		AECFA1D32965E4CA0065B501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1D22965E4CA0065B501 /* ContentView.swift */; };
 		AECFA1D52965E4CA0065B501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECFA1D42965E4CA0065B501 /* Assets.xcassets */; };
 		AECFA1D82965E4CA0065B501 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECFA1D72965E4CA0065B501 /* Preview Assets.xcassets */; };
 		AECFA1E22965E4CA0065B501 /* Neuron2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1E12965E4CA0065B501 /* Neuron2023Tests.swift */; };
 		AECFA1EC2965E4CA0065B501 /* Neuron2023UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1EB2965E4CA0065B501 /* Neuron2023UITests.swift */; };
 		AECFA1EE2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */; };
+		AECFA1FF2965E5930065B501 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1FE2965E5930065B501 /* MainView.swift */; };
+		AECFA2002965E5930065B501 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1FE2965E5930065B501 /* MainView.swift */; };
+		AECFA2012965E5930065B501 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA1FE2965E5930065B501 /* MainView.swift */; };
+		AECFA2032965E59F0065B501 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2022965E59F0065B501 /* MainViewModel.swift */; };
+		AECFA2042965E59F0065B501 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2022965E59F0065B501 /* MainViewModel.swift */; };
+		AECFA2052965E59F0065B501 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2022965E59F0065B501 /* MainViewModel.swift */; };
+		AECFA2072965E5A90065B501 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2062965E5A90065B501 /* MainModel.swift */; };
+		AECFA2082965E5A90065B501 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2062965E5A90065B501 /* MainModel.swift */; };
+		AECFA2092965E5A90065B501 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2062965E5A90065B501 /* MainModel.swift */; };
+		AECFA20B2965E5B40065B501 /* MainDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20A2965E5B40065B501 /* MainDesign.swift */; };
+		AECFA20C2965E5B40065B501 /* MainDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20A2965E5B40065B501 /* MainDesign.swift */; };
+		AECFA20D2965E5B40065B501 /* MainDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20A2965E5B40065B501 /* MainDesign.swift */; };
+		AECFA20F2965E5D00065B501 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20E2965E5D00065B501 /* MainCoordinator.swift */; };
+		AECFA2102965E5D00065B501 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20E2965E5D00065B501 /* MainCoordinator.swift */; };
+		AECFA2112965E5D00065B501 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA20E2965E5D00065B501 /* MainCoordinator.swift */; };
+		AECFA2142965E7440065B501 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2132965E7440065B501 /* Coordinator.swift */; };
+		AECFA2152965E7440065B501 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2132965E7440065B501 /* Coordinator.swift */; };
+		AECFA2162965E7440065B501 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2132965E7440065B501 /* Coordinator.swift */; };
+		AECFA2182965E76A0065B501 /* CoordinatorNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2172965E76A0065B501 /* CoordinatorNavigation.swift */; };
+		AECFA2192965E76A0065B501 /* CoordinatorNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2172965E76A0065B501 /* CoordinatorNavigation.swift */; };
+		AECFA21A2965E76A0065B501 /* CoordinatorNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2172965E76A0065B501 /* CoordinatorNavigation.swift */; };
+		AECFA21C2965E77F0065B501 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21B2965E77F0065B501 /* Reactive.swift */; };
+		AECFA21D2965E77F0065B501 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21B2965E77F0065B501 /* Reactive.swift */; };
+		AECFA21E2965E77F0065B501 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21B2965E77F0065B501 /* Reactive.swift */; };
+		AECFA2202965E7950065B501 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21F2965E7950065B501 /* DIContainer.swift */; };
+		AECFA2212965E7950065B501 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21F2965E7950065B501 /* DIContainer.swift */; };
+		AECFA2222965E7950065B501 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA21F2965E7950065B501 /* DIContainer.swift */; };
+		AECFA2242965E7AE0065B501 /* ViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2232965E7AE0065B501 /* ViewMaker.swift */; };
+		AECFA2252965E7AE0065B501 /* ViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2232965E7AE0065B501 /* ViewMaker.swift */; };
+		AECFA2262965E7AE0065B501 /* ViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2232965E7AE0065B501 /* ViewMaker.swift */; };
+		AECFA2282965E7C70065B501 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2272965E7C70065B501 /* ViewModelType.swift */; };
+		AECFA2292965E7C70065B501 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2272965E7C70065B501 /* ViewModelType.swift */; };
+		AECFA22A2965E7C70065B501 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2272965E7C70065B501 /* ViewModelType.swift */; };
+		AECFA22D2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA22C2965E8440065B501 /* NavigationControllerGeneric.swift */; };
+		AECFA22E2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA22C2965E8440065B501 /* NavigationControllerGeneric.swift */; };
+		AECFA22F2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA22C2965E8440065B501 /* NavigationControllerGeneric.swift */; };
+		AECFA2312965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2302965E86F0065B501 /* CoordinatorNavigationController.swift */; };
+		AECFA2322965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2302965E86F0065B501 /* CoordinatorNavigationController.swift */; };
+		AECFA2332965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2302965E86F0065B501 /* CoordinatorNavigationController.swift */; };
+		AECFA2362965EAFA0065B501 /* NeuronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2352965EAFA0065B501 /* NeuronView.swift */; };
+		AECFA2372965EAFA0065B501 /* NeuronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2352965EAFA0065B501 /* NeuronView.swift */; };
+		AECFA2382965EAFA0065B501 /* NeuronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2352965EAFA0065B501 /* NeuronView.swift */; };
+		AECFA23A2965EB020065B501 /* NeuronViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2392965EB020065B501 /* NeuronViewModel.swift */; };
+		AECFA23B2965EB020065B501 /* NeuronViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2392965EB020065B501 /* NeuronViewModel.swift */; };
+		AECFA23C2965EB020065B501 /* NeuronViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2392965EB020065B501 /* NeuronViewModel.swift */; };
+		AECFA23E2965EB0C0065B501 /* NeuronModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA23D2965EB0C0065B501 /* NeuronModel.swift */; };
+		AECFA23F2965EB0C0065B501 /* NeuronModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA23D2965EB0C0065B501 /* NeuronModel.swift */; };
+		AECFA2402965EB0C0065B501 /* NeuronModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA23D2965EB0C0065B501 /* NeuronModel.swift */; };
+		AECFA2422965EB170065B501 /* NeuronDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2412965EB170065B501 /* NeuronDesign.swift */; };
+		AECFA2432965EB170065B501 /* NeuronDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2412965EB170065B501 /* NeuronDesign.swift */; };
+		AECFA2442965EB170065B501 /* NeuronDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2412965EB170065B501 /* NeuronDesign.swift */; };
+		AECFA2472965ED740065B501 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2462965ED740065B501 /* Neuron.swift */; };
+		AECFA2482965ED740065B501 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2462965ED740065B501 /* Neuron.swift */; };
+		AECFA2492965ED740065B501 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA2462965ED740065B501 /* Neuron.swift */; };
+		AECFA24B2965EE5F0065B501 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24A2965EE5F0065B501 /* Layer.swift */; };
+		AECFA24C2965EE5F0065B501 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24A2965EE5F0065B501 /* Layer.swift */; };
+		AECFA24D2965EE5F0065B501 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24A2965EE5F0065B501 /* Layer.swift */; };
+		AECFA24F2965EF270065B501 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24E2965EF270065B501 /* Network.swift */; };
+		AECFA2502965EF270065B501 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24E2965EF270065B501 /* Network.swift */; };
+		AECFA2512965EF270065B501 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECFA24E2965EF270065B501 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +95,6 @@
 /* Begin PBXFileReference section */
 		AECFA1CD2965E4C90065B501 /* Neuron2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuron2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023App.swift; sourceTree = "<group>"; };
-		AECFA1D22965E4CA0065B501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AECFA1D42965E4CA0065B501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AECFA1D72965E4CA0065B501 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AECFA1DD2965E4CA0065B501 /* Neuron2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +102,26 @@
 		AECFA1E72965E4CA0065B501 /* Neuron2023UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuron2023UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECFA1EB2965E4CA0065B501 /* Neuron2023UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023UITests.swift; sourceTree = "<group>"; };
 		AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AECFA1FE2965E5930065B501 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AECFA2022965E59F0065B501 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AECFA2062965E5A90065B501 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		AECFA20A2965E5B40065B501 /* MainDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDesign.swift; sourceTree = "<group>"; };
+		AECFA20E2965E5D00065B501 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		AECFA2132965E7440065B501 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AECFA2172965E76A0065B501 /* CoordinatorNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorNavigation.swift; sourceTree = "<group>"; };
+		AECFA21B2965E77F0065B501 /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
+		AECFA21F2965E7950065B501 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		AECFA2232965E7AE0065B501 /* ViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMaker.swift; sourceTree = "<group>"; };
+		AECFA2272965E7C70065B501 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		AECFA22C2965E8440065B501 /* NavigationControllerGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerGeneric.swift; sourceTree = "<group>"; };
+		AECFA2302965E86F0065B501 /* CoordinatorNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorNavigationController.swift; sourceTree = "<group>"; };
+		AECFA2352965EAFA0065B501 /* NeuronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronView.swift; sourceTree = "<group>"; };
+		AECFA2392965EB020065B501 /* NeuronViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronViewModel.swift; sourceTree = "<group>"; };
+		AECFA23D2965EB0C0065B501 /* NeuronModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronModel.swift; sourceTree = "<group>"; };
+		AECFA2412965EB170065B501 /* NeuronDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronDesign.swift; sourceTree = "<group>"; };
+		AECFA2462965ED740065B501 /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
+		AECFA24A2965EE5F0065B501 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		AECFA24E2965EF270065B501 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +152,7 @@
 		AECFA1C42965E4C90065B501 = {
 			isa = PBXGroup;
 			children = (
+				AECFA1FC2965E5420065B501 /* lib */,
 				AECFA1CF2965E4C90065B501 /* Neuron2023 */,
 				AECFA1E02965E4CA0065B501 /* Neuron2023Tests */,
 				AECFA1EA2965E4CA0065B501 /* Neuron2023UITests */,
@@ -94,9 +173,9 @@
 		AECFA1CF2965E4C90065B501 /* Neuron2023 */ = {
 			isa = PBXGroup;
 			children = (
+				AECFA1FB2965E53B0065B501 /* resources */,
+				AECFA1FA2965E5340065B501 /* flows */,
 				AECFA1D02965E4CA0065B501 /* Neuron2023App.swift */,
-				AECFA1D22965E4CA0065B501 /* ContentView.swift */,
-				AECFA1D42965E4CA0065B501 /* Assets.xcassets */,
 				AECFA1D62965E4CA0065B501 /* Preview Content */,
 			);
 			path = Neuron2023;
@@ -125,6 +204,88 @@
 				AECFA1ED2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift */,
 			);
 			path = Neuron2023UITests;
+			sourceTree = "<group>";
+		};
+		AECFA1FA2965E5340065B501 /* flows */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA2342965EAE80065B501 /* neuron */,
+				AECFA1FD2965E5760065B501 /* main */,
+			);
+			path = flows;
+			sourceTree = "<group>";
+		};
+		AECFA1FB2965E53B0065B501 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1D42965E4CA0065B501 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		AECFA1FC2965E5420065B501 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA2452965ED660065B501 /* Neuron */,
+				AECFA22B2965E82F0065B501 /* Navigation */,
+				AECFA2122965E71F0065B501 /* Protocols */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		AECFA1FD2965E5760065B501 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA1FE2965E5930065B501 /* MainView.swift */,
+				AECFA2022965E59F0065B501 /* MainViewModel.swift */,
+				AECFA2062965E5A90065B501 /* MainModel.swift */,
+				AECFA20A2965E5B40065B501 /* MainDesign.swift */,
+				AECFA20E2965E5D00065B501 /* MainCoordinator.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		AECFA2122965E71F0065B501 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA2132965E7440065B501 /* Coordinator.swift */,
+				AECFA2172965E76A0065B501 /* CoordinatorNavigation.swift */,
+				AECFA21B2965E77F0065B501 /* Reactive.swift */,
+				AECFA21F2965E7950065B501 /* DIContainer.swift */,
+				AECFA2232965E7AE0065B501 /* ViewMaker.swift */,
+				AECFA2272965E7C70065B501 /* ViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AECFA22B2965E82F0065B501 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA22C2965E8440065B501 /* NavigationControllerGeneric.swift */,
+				AECFA2302965E86F0065B501 /* CoordinatorNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AECFA2342965EAE80065B501 /* neuron */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA2352965EAFA0065B501 /* NeuronView.swift */,
+				AECFA2392965EB020065B501 /* NeuronViewModel.swift */,
+				AECFA23D2965EB0C0065B501 /* NeuronModel.swift */,
+				AECFA2412965EB170065B501 /* NeuronDesign.swift */,
+			);
+			path = neuron;
+			sourceTree = "<group>";
+		};
+		AECFA2452965ED660065B501 /* Neuron */ = {
+			isa = PBXGroup;
+			children = (
+				AECFA2462965ED740065B501 /* Neuron.swift */,
+				AECFA24A2965EE5F0065B501 /* Layer.swift */,
+				AECFA24E2965EF270065B501 /* Network.swift */,
+			);
+			path = Neuron;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +418,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECFA1D32965E4CA0065B501 /* ContentView.swift in Sources */,
+				AECFA2142965E7440065B501 /* Coordinator.swift in Sources */,
+				AECFA2242965E7AE0065B501 /* ViewMaker.swift in Sources */,
+				AECFA2202965E7950065B501 /* DIContainer.swift in Sources */,
+				AECFA23A2965EB020065B501 /* NeuronViewModel.swift in Sources */,
+				AECFA20B2965E5B40065B501 /* MainDesign.swift in Sources */,
+				AECFA24F2965EF270065B501 /* Network.swift in Sources */,
+				AECFA20F2965E5D00065B501 /* MainCoordinator.swift in Sources */,
+				AECFA21C2965E77F0065B501 /* Reactive.swift in Sources */,
+				AECFA24B2965EE5F0065B501 /* Layer.swift in Sources */,
+				AECFA2312965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */,
+				AECFA2182965E76A0065B501 /* CoordinatorNavigation.swift in Sources */,
+				AECFA23E2965EB0C0065B501 /* NeuronModel.swift in Sources */,
+				AECFA1FF2965E5930065B501 /* MainView.swift in Sources */,
 				AECFA1D12965E4CA0065B501 /* Neuron2023App.swift in Sources */,
+				AECFA2422965EB170065B501 /* NeuronDesign.swift in Sources */,
+				AECFA2362965EAFA0065B501 /* NeuronView.swift in Sources */,
+				AECFA2072965E5A90065B501 /* MainModel.swift in Sources */,
+				AECFA2032965E59F0065B501 /* MainViewModel.swift in Sources */,
+				AECFA2472965ED740065B501 /* Neuron.swift in Sources */,
+				AECFA2282965E7C70065B501 /* ViewModelType.swift in Sources */,
+				AECFA22D2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +446,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECFA2082965E5A90065B501 /* MainModel.swift in Sources */,
+				AECFA2102965E5D00065B501 /* MainCoordinator.swift in Sources */,
+				AECFA2212965E7950065B501 /* DIContainer.swift in Sources */,
+				AECFA23B2965EB020065B501 /* NeuronViewModel.swift in Sources */,
+				AECFA2192965E76A0065B501 /* CoordinatorNavigation.swift in Sources */,
+				AECFA2502965EF270065B501 /* Network.swift in Sources */,
+				AECFA2322965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */,
 				AECFA1E22965E4CA0065B501 /* Neuron2023Tests.swift in Sources */,
+				AECFA24C2965EE5F0065B501 /* Layer.swift in Sources */,
+				AECFA2002965E5930065B501 /* MainView.swift in Sources */,
+				AECFA22E2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */,
+				AECFA23F2965EB0C0065B501 /* NeuronModel.swift in Sources */,
+				AECFA20C2965E5B40065B501 /* MainDesign.swift in Sources */,
+				AECFA21D2965E77F0065B501 /* Reactive.swift in Sources */,
+				AECFA2432965EB170065B501 /* NeuronDesign.swift in Sources */,
+				AECFA2372965EAFA0065B501 /* NeuronView.swift in Sources */,
+				AECFA2292965E7C70065B501 /* ViewModelType.swift in Sources */,
+				AECFA2042965E59F0065B501 /* MainViewModel.swift in Sources */,
+				AECFA2482965ED740065B501 /* Neuron.swift in Sources */,
+				AECFA2252965E7AE0065B501 /* ViewMaker.swift in Sources */,
+				AECFA2152965E7440065B501 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +474,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECFA2162965E7440065B501 /* Coordinator.swift in Sources */,
+				AECFA23C2965EB020065B501 /* NeuronViewModel.swift in Sources */,
+				AECFA2262965E7AE0065B501 /* ViewMaker.swift in Sources */,
+				AECFA24D2965EE5F0065B501 /* Layer.swift in Sources */,
+				AECFA2222965E7950065B501 /* DIContainer.swift in Sources */,
+				AECFA20D2965E5B40065B501 /* MainDesign.swift in Sources */,
+				AECFA2112965E5D00065B501 /* MainCoordinator.swift in Sources */,
 				AECFA1EE2965E4CA0065B501 /* Neuron2023UITestsLaunchTests.swift in Sources */,
+				AECFA21E2965E77F0065B501 /* Reactive.swift in Sources */,
+				AECFA2332965E86F0065B501 /* CoordinatorNavigationController.swift in Sources */,
+				AECFA21A2965E76A0065B501 /* CoordinatorNavigation.swift in Sources */,
+				AECFA2012965E5930065B501 /* MainView.swift in Sources */,
+				AECFA2442965EB170065B501 /* NeuronDesign.swift in Sources */,
 				AECFA1EC2965E4CA0065B501 /* Neuron2023UITests.swift in Sources */,
+				AECFA2092965E5A90065B501 /* MainModel.swift in Sources */,
+				AECFA2492965ED740065B501 /* Neuron.swift in Sources */,
+				AECFA2512965EF270065B501 /* Network.swift in Sources */,
+				AECFA2052965E59F0065B501 /* MainViewModel.swift in Sources */,
+				AECFA2382965EAFA0065B501 /* NeuronView.swift in Sources */,
+				AECFA22A2965E7C70065B501 /* ViewModelType.swift in Sources */,
+				AECFA2402965EB0C0065B501 /* NeuronModel.swift in Sources */,
+				AECFA22F2965E8440065B501 /* NavigationControllerGeneric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
