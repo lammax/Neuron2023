@@ -52,7 +52,7 @@ class Neuron {
         self.gradient = gradient
         
         oldWeights = weights
-        b = b * gradient
+        b = b - dy * a * gradient
         weights = zip(weights, inputs).map({ $0.0 - gradient * $0.1 * a })
     }
     
@@ -67,7 +67,7 @@ class Neuron {
         for _ in 0...weightsNum-1 {
             randowWeights.append(Double.random(in: 0.0 ..< 1.0) - 0.5)
         }
-        let b = Double.random(in: 0.0 ..< 1.0) - 0.5
+        let b: Double = .zero
         return Neuron(weights: randowWeights, b: b)
     }
 }
